@@ -1,0 +1,339 @@
+#ssQueryField {
+	margin-left:auto;
+	margin-right:auto; 
+	text-align:center;
+}
+
+.ssMessage {
+	width: 99%;
+	text-align: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.ssForm {
+	margin-left: 10px;
+}
+
+h1.ssHeading  {
+	padding: 0px;
+	font-size: 35px;
+	line-height: 37px;
+	font-weight: normal;
+	color: #777777;
+	text-transform: uppercase;
+	text-align: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+h2.ssHelp  {
+	padding: 0px;
+	font-size: 1.2em;
+	line-height: 37px;
+	font-weight: normal;
+	color: #333333;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.ssInputBox,
+.ssTextArea,
+.ssSelectList {
+	padding: 2px;
+	border:solid 1px #cccccc;
+	background-color: #ffffff;
+	width: 300px;
+	font-size: 1.0em;
+	margin: 0 0 0 0;
+}
+
+div.ssTip {
+	width: 300px;
+	display: block;
+	margin: 0 0 5px 160px;
+	padding: 1px 3px;
+	font-size: 0.9em;
+	zoom: 1;
+}
+
+.ssInputBox,
+.ssTextArea {
+	width: 293px;
+}
+
+.ssTextArea {
+	font-family: Helvetica, Arial, "Sans Serif";
+	font-size: 1.1em;
+}
+
+div.ssLinespace {
+	margin-bottom: 10px;
+	clear: both;
+}
+
+div.clearFloat {
+	height: 1px; 
+	clear: both;
+}
+
+.ssError, .error {
+	color: #CC0000;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+label.error {
+	display: block;
+}
+
+input.error,
+textarea.error,
+select.error,
+file.error {
+	border:dotted 1px #CC0000;
+	background-color: #FFFFCC;
+	color: #444444;
+	font-weight: normal;
+	font-size: 1.0em;
+}
+
+.success {
+	color: green;
+	font-weight: bold;
+	font-size: 1.1em;
+	display: inline;
+}
+
+.ssForm fieldset {
+	width: 100%;
+	margin-left: 10px;
+	text-align: left;
+	padding-bottom: 0px;
+	padding-top: 8px;
+	border:dotted 1px #95B0B6;
+}
+
+.ssForm fieldset.radio {
+	text-align: center;
+	border-style: none;
+	padding-top: 0px;
+}
+
+form fieldset div .ssAlignLabel {
+	width: 50px;
+	display: block;
+	float: left;
+	padding: 3px 5px;
+	margin: 0 0 5px 0;
+	text-align: right;
+	font-weight: bold;
+}
+
+.ssInfoAlign {
+	width: 400px;
+	margin: 0 0 0 0;
+	padding: 3px 5px;
+}
+
+.ssButton {
+	margin-top: 10px;
+	/*
+	background:url(btn-find_courses.gif) no-repeat transparent; 
+	*/
+	width: 125px;
+	height: 25px;
+	border-style: none;
+}
+
+#ssAdvancedForm {
+	font-size: 11px;
+	display:none;
+}
+
+#ssResultSummary {
+	font-size: 0.8em;
+	float: left;
+	padding-top: 10px;
+}
+
+/* course finder */
+.ssMessage {
+	width: 99%;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.ssSearchForm {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.ssItemDetails h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #333333;
+}
+
+div.ssItemDetails p.small {
+	font-family: Helvetica, Arial, "Sans Serif";
+	font-size: 1.1em;
+	font-weight: normal;
+	color: #666666;
+}
+
+div.ssItemDetails p.normal {
+	font-family: Helvetica, Arial, "Sans Serif";
+	font-size: 1.2em;
+	font-weight: normal;
+}
+
+div.ssItemDetails blockquote {
+	font-family: Helvetica, Arial, "Sans Serif";
+	font-size: 1.2em;
+}
+
+h1.ssHeading  {
+	padding: 0px;
+	font-size: 35px;
+	line-height: 37px;
+	font-weight: normal;
+	color: #777777;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h2.ssHelp  {
+	padding: 0px;
+	font-size: 1.2em;
+	line-height: 37px;
+	font-weight: normal;
+	color: #333333;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.ssInputBox,
+.ssSelectList {
+	padding: 2px;
+	border:solid 1px #cccccc;
+	background-color: #ffffff;
+	width: 300px;
+	font-size: 1.0em;
+	margin: 0 0 0 0;
+}
+
+.ssInputBox {
+	width: 325px;
+	font-size: 1.0em;
+}
+
+div.ssLinespace {
+	margin-bottom: 10px;
+	clear: both;
+}
+
+div.clearFloat {
+	height: 1px; 
+	clear: both;
+}
+
+.ssError {
+	color: #CC0000;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+.ssSearchForm fieldset {
+	width: 440px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 0px;
+	padding-top: 8px;
+	border:dotted 1px #95B0B6;
+}
+
+.ssSearchForm fieldset.radio {
+	text-align: center;
+	border-style: none;
+	padding-top: 0px;
+}
+
+form fieldset div label.ssAlignLabel {
+	width: 60px;
+	display: block;
+	float: left;
+	padding: 3px 5px;
+	margin: 0 0 5px 0;
+	text-align: right;
+}
+
+.ssSearchButton {
+	margin-top: 10px;
+	/*background:url("../images/search_button.gif") no-repeat transparent; */
+	background: #888;
+	color: #FFF;
+	font-family: "Helvetica Neue","Myriad Pro",Helvetica,arial,sans-serif;
+	font-size:13px;
+	width: 83px;
+	height: 25px;
+	border-style: none;
+}
+
+#showAdvancedForm {
+	font-size: 11px;
+}
+
+/* modal dialogs */
+#tipModal .normal {
+	font-size: 1em;
+	line-height: 120%;
+	font-weight: normal;
+	color: #444444;
+	font-family: Helvetica, Arial, "Sans Serif";
+}
+
+#tipModal code {
+	border:solid 1px #cccccc;
+	background-color: #ffffcc;
+	margin-left: 10px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+#advancedTipLink {
+	font-size:11px;
+}
+#modalContainer {
+	height:auto; 
+	width:600px; 
+	left:50%; 
+	top:5%; 
+	margin-left:-300px; 
+	background-color:#fff; 
+	border:3px 
+	solid #ccc;
+}
+
+#modalContainer a.modalCloseImg {
+	background:url(../images/close.gif) no-repeat; 
+	width:16px; 
+	height:16px; 
+	display:inline; 
+	z-index:3200; 
+	position:absolute; 
+	top:3px; 
+	right:3px; 
+	cursor:pointer;
+}
+
+#modalOverlay {
+	background-color:#000000; 
+	cursor:wait;
+}

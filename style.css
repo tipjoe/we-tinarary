@@ -1,0 +1,112 @@
+.room {
+  position: absolute;
+}
+
+._200-A {
+  left: 56%;
+  top: 68%;
+}
+
+._200-B {
+  left: 57%;
+  top: 65%;
+}
+
+._200-C {
+  left: 58%;
+  top: 61%;
+}
+
+._200-D {
+  left: 58%;
+  top: 58%;
+}
+
+._300-A {
+  left: 56%;
+  top: 37%;
+}
+
+._300-B {
+  left: 57%;
+  top: 34%;
+}
+
+._300-C {
+  left: 58%;
+  top: 30%;
+}
+
+._300-D {
+  left: 58%;
+  top: 27%;
+}
+
+._400 {
+  left: 60%;
+  top: 12%;
+}
+
+
+a, .anchor {
+  color: #662e92 !important;
+}
+.anchor:hover {
+  cursor: pointer;
+}
+
+.main {
+  background-color: #e7e7e7;
+}
+
+
+.heart {
+  color: lightgray;
+  vertical-align: middle;
+  font-size: 4em;
+  text-align: center;
+}
+
+.heart:hover,
+.heart.selected {
+  color: #662e92;
+  cursor: pointer;
+}
+
+.label {
+  text-align: right;
+}
+
+.like {
+  color: #662e92;
+}
+
+.main td {
+  padding: 12px 15px;
+}
+.moreless {
+  color: #662e92;
+}
+.moreless:hover {
+  text-decoration: underline;
+  cursor: pointer;;
+}
+
+.my-schedule-date {
+  background-color: #e7e7e7;
+  padding: 12px 15px;
+  margin: 0;
+}
+
+/* portrait */
+@media screen and (orientation:portrait) and (max-width: 600px) {
+	.mobileHint {
+    display: block;
+  }
+}
+/* landscape */
+@media screen and (orientation:landscape) {
+	.mobileHint {
+    display: none;
+  }
+}

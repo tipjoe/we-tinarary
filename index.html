@@ -1,0 +1,87 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="heart.png">
+</head>
+<body style="display: none;">
+
+
+<div class="container mb-5" style="font-size: 16px;">
+  <div class="row">
+    <div class="col-md-12">
+
+      <h3 class="my-5">Sunstone Symposium Schedule</h3>
+
+      <div id="orientationHint" class="d-none text-center my-4">
+        <img src="rotate-screen-text.png" title="Turn your screen sideways for the best experience.">
+      </div>
+
+      <ul class="nav nav-tabs my-4">
+        <li class="nav-item">
+          <a class="nav-link active" id="myschedule-tab" data-toggle="tab" href="#myschedule" style="color: #662e92;position: relative; padding-left: 45px;">
+            <span style="font-size: 45px;position: absolute;top: -15px;left: 10px;">&hearts;</span> My Schedule
+            <div id="myschedule-count" style="position: absolute; top: 10px; left: 17px; color: white; display: block; text-align: center; width: 20px; font-size: .8em;"></div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="day1-tab" data-toggle="tab" href="#day1">Wed</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="day2-tab" data-toggle="tab" href="#day2">Thu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="day3-tab" data-toggle="tab" href="#day3">Fri</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="day4-tab" data-toggle="tab" href="#day4">Sat</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="day5-tab" data-toggle="tab" href="#day5">Sun</a>
+        </li>
+      </ul>
+
+      <div class="tab-content" id="eventDays">
+
+
+      </div> <!-- End tab content panes. -->
+
+      <!-- Event map modal -->
+      <div class="modal " id="eventMap" tabindex="-1" role="dialog" aria-labelledby="eventMapTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="eventTitle">Room Location Map</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img id="location-arrow" src="flashing-arrow.gif" class="" style="width: 50px;">
+              <img src="event-map.png" style="max-width: 100%;max-height:100%;">
+            </div>
+          </div>
+        </div>
+      </div> <!-- End event map modal. -->
+
+    </div> <!-- End col. -->
+  </div> <!-- End row. -->
+
+</div> <!-- End container. -->
+
+
+
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/squirrelly@7.1.1/dist/squirrelly.min.js"></script>
+<script src="templates/day-tab.js"></script>
+<script src="templates/my-schedule.js"></script>
+<script src="data/schedule-data.js"></script>
+<script src="we-tinerary.js"></script>
+
+</body>
+</html>

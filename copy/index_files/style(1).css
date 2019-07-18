@@ -1,0 +1,46 @@
+#issueList {
+	width: 100%;
+	margin: 0px;
+}
+
+#issueList td {
+	padding: 5px;
+	font-size: 13px;
+}
+
+#issueHeader {
+	width: 100%;
+	margin: 0px;
+}
+
+#issueHeader td {
+	padding: 5px;
+	font-size: inherit !important;
+	font-size: 0.9em;
+}
+
+#issueArticles {
+	width: 100%;
+	margin: 0px;
+}
+
+#issueArticles th {
+	padding: 3px;
+	font-size: inherit !important;
+	font-size: 0.9em;
+}
+
+#issueArticles td {
+	padding: 3px;
+	font-size: inherit !important;
+	font-size: 0.9em;
+}
+
+.cover {
+	border:solid 1px #666666;
+}
+
+.small {
+	color: #999999;
+	font-size: 12px;
+}
